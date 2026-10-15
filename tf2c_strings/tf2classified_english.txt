@@ -753,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"Bullets have a wide, horizontal spread"
 "Attrib_ApplySelfKnockback"							"Applies reverse self-knockback on a shot"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% knockback on enemy"
-"Attrib_LifestealCrit"								"On Hit: Steal health from your victim while meter is full"
+"Attrib_LifestealCrit"								"Charged attacks hit multiple enemies and provide healing"
 "Attrib_FlatHealOnAfterburn_Active"					"+%s1 health gain per afterburn tick while active"
 "Attrib_RememberTargetsRemainingAfterburn"			"Tracks remaining afterburn off dead targets"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"On Death: Burning victims are extinguished"
@@ -874,7 +874,6 @@
 "Attrib_Minelayer_Explain_1"						"Tripmines are able to chain-react"
 "Attrib_Minelayer_Explain_2"						"Tripmines have increased radius and damage"
 "Attrib_Minelayer_Explain_3"						"4 max tripmines active"
-"Attrib_Harvester_Explain_1"						"Charged attacks hit multiple enemies and provide healing"
 
 // ----------------------------------------------------------------
 // Map strings
