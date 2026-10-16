@@ -254,7 +254,7 @@
 "DeathMsg_Suicide_Freeze"		"congeló solidamente"
 "DeathMsg_Suicide_Fizzle"		"fue electrificado!"
 "DeathMsg_Suicide_Disappear"	"desapareció"
-"DeathMsg_Suicide_Toss"			"got all tossed up"
+"DeathMsg_Suicide_Toss"			"quedó todo revuelto"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -515,7 +515,7 @@
 "TF_Weapon_Knife_Desc"	"Para el hombre que ama el proceso de desarollo."
 // Fists
 "TF_Weapon_Fists"		"Puños"
-"TF_Weapon_Fists_Desc"	"Sigo sin acabar contigo!"
+"TF_Weapon_Fists_Desc"	"¡Sigo sin acabar contigo!"
 // Shovel
 "TF_Weapon_Shovel"		"Pala"
 "TF_Weapon_Shovel_Desc"	"Entierra a tus enemigos en tiempos de guerra y róbate sus tumbas al llegar la paz."
@@ -527,7 +527,7 @@
 "TF_Weapon_Bonesaw_Desc"	"¡No te preocupes, no es mi sangre! ...Aunque, ahora que la veo mejor, no estoy tan seguro."
 // Shotgun
 "TF_Weapon_Shotgun"					"Escopeta"
-"TF_Weapon_Shotgun_Desc_Engineer"	"A veces tienes que hacer todo tu solito!"
+"TF_Weapon_Shotgun_Desc_Engineer"	"A veces tienes que hacer todo tu solito"
 "TF_Weapon_Shotgun_Desc_Soldier"	"¡Mi escopeta no aprueba tu voluntad de vivir, gusano!"
 "TF_Weapon_Shotgun_Desc_Heavy"		"Heavy hará esto funcionar."
 "TF_Weapon_Shotgun_Desc_Pyro"		"Permite que esto hable por ti."
