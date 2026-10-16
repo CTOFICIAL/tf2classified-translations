@@ -568,9 +568,9 @@
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"			"Herramienta de Construcción"
 "TF_Weapon_ConstructionPDA_Desc"	"Muchas herramientas para un buen Ingeniero, en este pequeño aparato."
-"TF_Weapon_PDATeleporter"			"ADP: Teletransportador"
+"TF_Weapon_PDATeleporter"			"PDA: Teletransportador"
 // Destruction PDA
-"TF_Weapon_DestructionPDA"	"ADP de destrucción"
+"TF_Weapon_DestructionPDA"	"PDA de destrucción"
 // Disguise Kit
 "TF_Weapon_DisguiseKit"	"Kit de Disfraces"
 // Medi Gun
@@ -659,7 +659,7 @@
 "TF_Weapon_AntiAircraftCannon"		"Cañón Anti-Aéreo"
 "TF_Weapon_AntiAircraftCannon_Desc"	"¿Cúal pieza de ti deberia Heavy enviar a casa con mamita?"
 // PDA: Jump Pad
-"TF_Weapon_PDAJumpPad"		"ADP: Plataforma de Salto"
+"TF_Weapon_PDAJumpPad"		"PDA: Plataforma de Salto"
 "TF_Weapon_PDAJumpPad_Desc"	"Confía en mi, amigazo. Este te dejará pensando por días."
 // Harvester
 "TF_Weapon_Harvester"		"Cosechadora"
@@ -701,7 +701,7 @@
 "TF_Weapon_Grenade"					"Granada"
 "TF_Weapon_HealGrenadeLauncher"		"Lanzagranadas curativo"
 "TF_Weapon_LunchBox"				"Lonchera"
-"TF_Weapon_PDA"						"ADP"
+"TF_Weapon_PDA"						"PDA"
 "TF_Weapon_TripmineLauncher"	"Lanzaminas de proximidad"
 "TF_Weapon_Scythe"					"Guadaña"
 "TF_Weapon_Syringe"					"Jeringa"
