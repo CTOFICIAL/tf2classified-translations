@@ -94,7 +94,6 @@
 "TF_teamswitch_green"				"¡Ahora estás en el equipo GRN!"
 "TF_teamswitch_yellow"				"¡Ahora estás en el equipo YLW!"
 
-
 // ----------------------------------------------------------------
 // Classes
 // ----------------------------------------------------------------
@@ -162,11 +161,8 @@
 
 "ClassTips_10_Count"	"3"
 "ClassTips_10_1"		"¡Impulsa a un compañero para darle ventaja en la batalla!"
-"ClassTips_10_1_Icon"	"chalf_circle"
 "ClassTips_10_2"		"¡Mantente cerca de tus compañeros para darles resistencia al daño y curación pasiva!"
-"ClassTips_10_2_Icon"	"chalf_circle"
 "ClassTips_10_3"		"¡Sé inútil en las peleas!"
-"ClassTips_10_3_Icon"	"chalf_circle"
 
 // Random
 "ClassTips_12_Count"		"1"
@@ -720,6 +716,7 @@
 "TF_Meter_Harvest"	"COSECHA"
 "TF_Meter_LunchBox"	"LONCHERA"
 "TF_Meter_Therapy"	"TERAPIA"
+"TF_Meter_Tranq"	"SEDANTE"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -728,6 +725,7 @@
 // Building Status
 "Building_hud_hauling"				"Transportando..."
 "Building_hud_upgrading"			"Mejorando..."
+"Building_hud_ready"				"Listo"
 "Building_hud_jumppad_a_not_built"	"Plataforma de Salto A\nSin construir"
 "Building_hud_jumppad_b_not_built"	"Plataforma de Salto B\nSin construir"
 
@@ -745,6 +743,7 @@
 "Attrib_CritVsBurning"				"Inflige críticos contra jugadores ardiendo"
 "Attrib_RocketJumpDmgReduction"		"%s1% de daño explosivo por saltos con cohete"
 "Attrib_Scattergun_HasKnockback"	"Empuja al objetivo y al tirador"
+
 
 "Attrib_RocketGravity"								"Los cohetes viajan en arco"
 "Attrib_CreatesEarthquakeFallDamage"				"Crea un terremoto al recibir daño por caída mientras está activo"
@@ -1016,10 +1015,12 @@ El Punto de Control activo se bloquea cuando uno nuevo es elegido.
 "Gametype_Training_FourTeam"		"Modo entrenamiento (Cuatro equipos)"
 "Gametype_VIP_FourTeam"				"VIP (Cuatro equipos)"
 "Gametype_VIPRace_FourTeam"			"Carrera VIP (Cuatro equipos)"
+"Gametype_TDM_FourTeam"				"Equipo Deathmatch (Cuatro equipos)"
+"Gametype_RCTF_FourTeam"			"Captura la bandera inversa (Cuatro equipos)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"Los BLUs escoltan al Civíl al punto de control. Los REDs deben pararlo."
-"TF_GameModeDesc_VIPRace"		"Escolta a tu Civíl a la línea final antes de que el equipo opuesto lo logre."
+"TF_GameModeDesc_VIP"			"Los BLUs escoltan al Civilian al punto de control. Los REDs deben pararlo."
+"TF_GameModeDesc_VIPRace"		"Escolta a tu Civilian a la línea final antes de que el equipo opuesto lo logre."
 "TF_GameModeDesc_Domination"	"Captura puntos y mantenlos el mayor tiempo posible."
 "TF_GameModeDesc_Arena"			"Mata a todos los enemigos o espera al punto de control."
 
@@ -1190,6 +1191,11 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_ScoreBoard_Player"				"%s1 Jugador"
 "TF_ScoreBoard_Players"				"%s1 Jugadores"
 
+"TF_ScoreBoard_Player_And_Bot"		"%s1 Jugador (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 Jugadores (%s2 Bot)"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 Jugador (%s2 Bots)"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 Jugadores (%s2 Bots)"
+
 "ScoreBoard_Spectator"				"%s1 Espectador: %s2"
 "ScoreBoard_Spectators"				"%s1 Espectadores: %s2"
 
@@ -1255,6 +1261,8 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_Menu_Welcome"			"Te damos la bienvenida,"
 "TF_Menu_Name"				"%playername%"
 
+"TF_Menu_StreamerMode"		"Modo streamer"
+
 "TF_Menu_ResumeGame"		"Volver"
 "TF_Menu_Mute"				"Silenciar jugadores"
 "TF_Menu_Vote"				"Pedir votos"
@@ -1275,7 +1283,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_Menu_Disconnect"		"Abandonar"
 
 "TF_Menu_Blog"				"Blog oficial"
-"TF_Menu_LatestUpdate"		"Última actualización"
 "TF_Menu_ReportBug"			"Reportar un error"
 "TF_Menu_Donate"			"Donar"
 
@@ -1339,6 +1346,10 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_ConfirmDefaultInventory_Title"		"Armas por defecto"
 "TF_ConfirmDefaultInventory_Message"		"¿Estás seguro/a de volver a los objetos predeterminados para esta clase?"
 "TF_ConfirmDefaultInventory_OK"			"Sí"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"Reapareciendo como %s1"
+"TF_Loadout_Changing_Class"			"Cambiar la clase a %s1" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1417,7 +1428,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF2c_OptionCategory_Communication"		"COMUNICACIÓN"
 "TF2c_OptionCategory_Discord"			"DISCORD"
 
-
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Personalización"
 "TF2c_OptionCategory_Network"							"RED"
 
@@ -1474,8 +1484,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Habilitar doble pulsación del Cíclope"
 "TF_CyclopsDoubleTap_Tip"        	"Si se activa, las granadas del Cíclope requeriran un segundo clic para detonar en vez de soltar el ataque principal."
-"TF_SapperAwareness"                "ENGINEER: Advertencia de Zapador"
-"TF_SapperAwareness_Tip"            "Si se activa, la advertencia del zapador en las alertas de las construcciones serán de un color alternativo."
 "TF_SniperBell"					    "SNIPER: Reproduce un sonido al tener Carga Completa"
 "TF_SniperBell_Tip"					"Reproduce un sonido cuando el Rifle de Francotirador del Sniper este completamente cargado"
 "TF_ZoomSensitivityRatio"			"SNIPER: Radio de sensibilidad de la mira"
@@ -1568,7 +1576,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 // Video
 "TF2c_Option_BloomScale"	"Escala de resplandecimiento"
 "TF2c_Option_ClassicShading"		"Sombreado clásico"
-"TF2c_Option_ClassicShading_Tip"	"Si se activa, habilita el sombreado lambertiano completo para los materiales de los jugadores"
 "TF2c_Option_BloomScale"			"Escala de brillo (bloom)"
 "TF2c_Option_FramerateLimit"		"Límite de fotogramas por segundo"
 "TF2c_Option_Brightness"			"Nivel de brillo"
@@ -1591,6 +1598,13 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_ClassRecord_Alt_MostUbercharges"	"Supercarga(s)"
 "TF_ClassRecord_MostPadJumps"			"Máx. saltos de plataforma:"
 "TF_ClassRecord_Alt_MostPadJumps"		"salto(s) de plataforma"
+
+"StatPanel_Ubercharges_Best"			"En esta ronda usaste la Supercarga más veces que en tu mejor marca anterior."
+"StatPanel_Ubercharges_Tie"				"Igualaste tu récord de la Supercarga en esta ronda."
+"StatPanel_Ubercharges_Close"			"Estuviste cerca de tu récord de Supercargas en esta ronda."
+"StatPanel_MVM_Ubercharges_Best"		"Usaste la Supercarga más veces en esta ronda de Mann vs. Machine que en tu mejor partida anterior."
+"StatPanel_MVM_Ubercharges_Tie"			"Igualaste tu récord de Supercargas en esta ronda de Mann vs. Machine."
+"StatPanel_MVM_Ubercharges_Close"		"Estuviste cerca de tu récord de Supercargas en esta ronda de Mann vs. Machine."
 
 "StatPanel_PadJumps_Best"				"Tus plataformas de salto se utilizaron más veces en esa ronda que en tu récord anterior."
 "StatPanel_PadJumps_Tie"				"Igualaste tu récord de uso de plataformas de salto en esa ronda."
@@ -1753,5 +1767,14 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 
 "TF_Welcome_birthday"			"¡Bienvenido y feliz cumpleaños, TF2!"
 "TF_Welcome_qwtf_birthday"		"¡Bienvenido y feliz cumpleaños, QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"El Jinete sin Cabeza y sin Caballo"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"¡Has hecho enojar al Jinete sin Cabeza y sin Caballo!"
+"TF_Halloween_Boss_Appeared"		"¡Ha aparecido el Jinete sin Cabeza y sin Caballo!\n"
+"TF_Halloween_Boss_Killed"			"¡El Jinete sin Cabeza y sin Caballo ha sido derrotado!\n"
+"TF_Halloween_Boss_Killers"			"%s1 ¡ha derrotado al Jinete sin Cabeza y sin Caballo!\n"
 }
 }
